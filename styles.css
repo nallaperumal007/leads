@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: green; /* Set navbar background to green */
+}
+
+.navbar a {
+    color: white !important; /* Ensure text color is white */
+}
+
+.navbar a:hover {
+    color: #ffeb3b; /* Set hover color to yellow */
+}
+
+.navbar .nav-item {
+    padding: 10px 20px;
+}
+
+.navbar .nav-item a {
+    font-size: 16px;
+}
+
+/* Sidebar on the Left */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: green;
+    padding-top: 20px;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    background-color: #0277bd;
+    color: white;
+}
+
+.content {
+    margin-left: 250px; /* This will make space for the sidebar on the left */
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #8e24aa;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+}
+
+footer .social-icons a:hover {
+    color: #ffeb3b;
+}
+
+@media (max-width: 768px) {
+    /* On small screens, make the sidebar and content stack */
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .navbar .nav-item {
+        text-align: center;
+    }
+}

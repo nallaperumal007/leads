@@ -1,0 +1,11 @@
+I want Lead management project       
+iam want core php,html,bootstrap,ajax 
+1.Loginpage 1 adminname and passwordgive the sql query
+2.header and footer and sidebar i want show with icons
+3.admin login first go dashboard iwant bar chart based on information 
+base show
+4.admin login succesfuly admin able to create another account
+5.Leads in sidebar i am click iwant form show Name Locaiton Number LeadType(Call,medium,notcall) dropdown,description 
+7.i want search funcitonality and call,medium,not call dropdown filtering 
+6.report date base show date show header andbelow show table format information show here i want  Name Locaiton Number LeadType(Call,medium,notcall) dropdown,description ,number base extrA wabt call,whasapp icon i want and yesterday date show show table information
+give the full code with file names i want neet and color ful ui give the code
